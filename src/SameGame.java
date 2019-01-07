@@ -2,11 +2,8 @@ import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.layout.StackPane;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
-import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
 import java.util.List;
 
@@ -61,7 +58,7 @@ public class SameGame extends Application {
         }
         else {
             GridPane gridPane = new GridPane();
-            primaryStage.setTitle("Rad Same Game");
+            primaryStage.setTitle("Same Game");
             Scene scene = new Scene(gridPane);
             primaryStage.setScene(scene);
             primaryStage.show();
